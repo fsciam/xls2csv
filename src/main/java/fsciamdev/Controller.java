@@ -53,6 +53,7 @@ public class Controller {
                 alert.setContentText("There are no xls/xlsx files in the selected folder");
                 alert.showAndWait();
 
+                ConvertButton.setStyle("-fx-background-color: #FF0000");
                 ConvertButton.setDisable(true);
                 DirectoryPath.setText(null);
                 selectedDirectory=null;
@@ -66,6 +67,7 @@ public class Controller {
                 alert.setContentText(message);
                 alert.showAndWait();
                 ConvertButton.setDisable(false);
+                ConvertButton.setStyle("-fx-background-color: #0EFF00");
                 DirectoryPath.setText(selectedDirectory.getAbsolutePath());
             }
 
