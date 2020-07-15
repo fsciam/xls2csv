@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Text?>
 
 <Pane fx:id="MainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-      prefHeight="236.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      prefHeight="236.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/8.0.251" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="fsciamdev.Controller">
    <Button fx:id="DirectoryPickerButton" layoutX="33.0" layoutY="105.0" mnemonicParsing="false"
            onMouseClicked="#chooseFile" prefHeight="73.0" prefWidth="90.0" text="CHOOSE DIRECTORY"
